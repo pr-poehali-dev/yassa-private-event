@@ -102,6 +102,153 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="relative py-24 px-4">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-6xl font-bold mb-4 text-gold">
+              Спикеры вечера
+            </h2>
+            <div className="w-24 h-px bg-gradient-to-r from-transparent via-gold to-transparent mx-auto mt-6" />
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 mb-24">
+            <Card className="bg-card/50 backdrop-blur-sm border-gold/20 p-8 hover:border-gold/40 transition-all duration-300">
+              <div className="flex items-start gap-4">
+                <div className="w-16 h-16 rounded-full bg-gold/10 border border-gold/30 flex items-center justify-center flex-shrink-0">
+                  <Icon name="User" size={28} className="text-gold" />
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-gold-light mb-2">Regina Ryan</h3>
+                  <p className="text-foreground/70 leading-relaxed">
+                    Президент мировой ассоциации предпринимателей Harvard University, партнер Yassa Business Institute
+                  </p>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="bg-card/50 backdrop-blur-sm border-gold/20 p-8 hover:border-gold/40 transition-all duration-300">
+              <div className="flex items-start gap-4">
+                <div className="w-16 h-16 rounded-full bg-gold/10 border border-gold/30 flex items-center justify-center flex-shrink-0">
+                  <Icon name="User" size={28} className="text-gold" />
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-gold-light mb-2">Аманат Молдокеева</h3>
+                  <p className="text-foreground/70 leading-relaxed">
+                    Глава Yassa Business Institute Kyrgyzstan. Председатель совета директоров ОАО "Евразийский Сберегательный банк"
+                  </p>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="bg-card/50 backdrop-blur-sm border-gold/20 p-8 hover:border-gold/40 transition-all duration-300">
+              <div className="flex items-start gap-4">
+                <div className="w-16 h-16 rounded-full bg-gold/10 border border-gold/30 flex items-center justify-center flex-shrink-0">
+                  <Icon name="User" size={28} className="text-gold" />
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-gold-light mb-2">Жан Карсыбаев</h3>
+                  <p className="text-foreground/70 leading-relaxed">
+                    Со-основатель американского инвестиционного фонда BigSkyCapital, член Совета Директоров Yassa Business Institute
+                  </p>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="bg-card/50 backdrop-blur-sm border-gold/20 p-8 hover:border-gold/40 transition-all duration-300">
+              <div className="flex items-start gap-4">
+                <div className="w-16 h-16 rounded-full bg-gold/10 border border-gold/30 flex items-center justify-center flex-shrink-0">
+                  <Icon name="User" size={28} className="text-gold" />
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-gold-light mb-2">Кристина Вебер</h3>
+                  <p className="text-foreground/70 leading-relaxed">
+                    СЕО, со-основатель Yassa Business Institute Global
+                  </p>
+                </div>
+              </div>
+            </Card>
+          </div>
+
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-6xl font-bold mb-4 text-gold">
+              Программа вечера
+            </h2>
+            <div className="w-24 h-px bg-gradient-to-r from-transparent via-gold to-transparent mx-auto mt-6" />
+          </div>
+
+          <div className="max-w-4xl mx-auto space-y-6">
+            <Card className="bg-card/50 backdrop-blur-sm border-gold/20 p-8">
+              <div className="flex items-start gap-6">
+                <div className="flex-shrink-0">
+                  <div className="flex items-center gap-2 text-gold">
+                    <Icon name="Clock" size={20} />
+                    <span className="text-xl font-semibold">18:30</span>
+                  </div>
+                </div>
+                <div className="flex-1">
+                  <p className="text-lg text-foreground/80">
+                    Сбор гостей и Welcome drink
+                  </p>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="bg-card/50 backdrop-blur-sm border-gold/20 p-8">
+              <div className="flex items-start gap-6">
+                <div className="flex-shrink-0">
+                  <div className="flex items-center gap-2 text-gold">
+                    <Icon name="Clock" size={20} />
+                    <span className="text-xl font-semibold">19:00 - 21:00</span>
+                  </div>
+                </div>
+                <div className="flex-1 space-y-4">
+                  <div className="flex items-start gap-3">
+                    <span className="text-gold font-bold text-lg flex-shrink-0">1.</span>
+                    <p className="text-lg text-foreground/80">
+                      <span className="text-gold-light font-semibold">AI & Leadership: Практика Harvard.</span> Как AI трансформирует бизнес и лидерство
+                    </p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <span className="text-gold font-bold text-lg flex-shrink-0">2.</span>
+                    <p className="text-lg text-foreground/80">
+                      <span className="text-gold-light font-semibold">Investment Mindset:</span> как бизнесу Центральной Азии масштабироваться на международные рынки
+                    </p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <span className="text-gold font-bold text-lg flex-shrink-0">3.</span>
+                    <p className="text-lg text-foreground/80">
+                      <span className="text-gold-light font-semibold">Education That Works.</span> Мировая экспертиза. AI-driven, практикоориентированный подход. Какие возможности открывает Yassa Business Institute для бизнеса Кыргызстана
+                    </p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <span className="text-gold font-bold text-lg flex-shrink-0">4.</span>
+                    <p className="text-lg text-foreground/80">
+                      <span className="text-gold-light font-semibold">People & Growth:</span> команда мечты
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="bg-card/50 backdrop-blur-sm border-gold/20 p-8">
+              <div className="flex items-start gap-6">
+                <div className="flex-shrink-0">
+                  <div className="flex items-center gap-2 text-gold">
+                    <Icon name="Clock" size={20} />
+                    <span className="text-xl font-semibold">21:00 - 22:00</span>
+                  </div>
+                </div>
+                <div className="flex-1">
+                  <p className="text-lg text-foreground/80">
+                    Неформальный нетворкинг, закуски и игристое
+                  </p>
+                </div>
+              </div>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       <section id="registration" className="relative py-20 px-4">
         <div className="absolute inset-0 bg-gradient-to-t from-secondary/30 to-transparent" />
         
