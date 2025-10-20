@@ -246,6 +246,234 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="relative py-24 px-4 bg-gradient-to-b from-background to-secondary/20">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            <div className="flex items-center justify-center mb-8">
+              <img 
+                src="https://static.tildacdn.com/tild6235-3932-4534-b238-636335623331/86eb11a73ab5a10bdc32.svg" 
+                alt="Yassa Business Institute" 
+                className="h-16 md:h-20"
+              />
+            </div>
+            <div className="w-24 h-px bg-gradient-to-r from-transparent via-gold to-transparent mx-auto mb-12" />
+            
+            <p className="text-lg md:text-xl text-foreground/80 max-w-4xl mx-auto leading-relaxed mb-16">
+              Yassa Business Institute — международный институт нового поколения, формирующий образовательную экосистему для предпринимателей, топ-менеджеров и лидеров бизнеса в Центральной Азии.
+            </p>
+          </div>
+
+          <div className="mb-20">
+            <h3 className="text-3xl md:text-4xl font-bold text-gold mb-12 text-center">
+              Уникальность подхода Yassa
+            </h3>
+            
+            <div className="grid md:grid-cols-2 gap-6 mb-8">
+              <Card className="bg-card/50 backdrop-blur-sm border-gold/20 p-6 hover:border-gold/40 transition-all duration-300">
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-2 h-2 rounded-full bg-gold mt-2" />
+                  <p className="text-base md:text-lg text-foreground/80 leading-relaxed">
+                    Искусственный интеллект встроен в саму логику программы.
+                  </p>
+                </div>
+              </Card>
+
+              <Card className="bg-card/50 backdrop-blur-sm border-gold/20 p-6 hover:border-gold/40 transition-all duration-300">
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-2 h-2 rounded-full bg-gold mt-2" />
+                  <p className="text-base md:text-lg text-foreground/80 leading-relaxed">
+                    Каждый участник получает персонализированный трек развития.
+                  </p>
+                </div>
+              </Card>
+
+              <Card className="bg-card/50 backdrop-blur-sm border-gold/20 p-6 hover:border-gold/40 transition-all duration-300">
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-2 h-2 rounded-full bg-gold mt-2" />
+                  <p className="text-base md:text-lg text-foreground/80 leading-relaxed">
+                    Образование строится через ПРАКТИКУ, а не лекции.
+                  </p>
+                </div>
+              </Card>
+
+              <Card className="bg-card/50 backdrop-blur-sm border-gold/20 p-6 hover:border-gold/40 transition-all duration-300">
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-2 h-2 rounded-full bg-gold mt-2" />
+                  <p className="text-base md:text-lg text-foreground/80 leading-relaxed">
+                    Диагностика, трекинг, симуляции и практические кейсы — всё интегрировано в единую Yassa GrowthOS.
+                  </p>
+                </div>
+              </Card>
+            </div>
+
+            <p className="text-xl md:text-2xl text-gold-light text-center font-light mt-12">
+              Это не просто обучение. Это система роста.
+            </p>
+          </div>
+
+          <div className="mb-20">
+            <h3 className="text-3xl md:text-4xl font-bold text-gold mb-8 text-center">
+              Почему Кыргызстан
+            </h3>
+            
+            <div className="max-w-4xl mx-auto space-y-6 mb-8">
+              <Card className="bg-card/50 backdrop-blur-sm border-gold/20 p-6">
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-2 h-2 rounded-full bg-gold mt-2" />
+                  <p className="text-base md:text-lg text-foreground/80 leading-relaxed">
+                    Кыргызстан становится центром роста бизнеса и технологий в регионе.
+                  </p>
+                </div>
+              </Card>
+
+              <Card className="bg-card/50 backdrop-blur-sm border-gold/20 p-6">
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-2 h-2 rounded-full bg-gold mt-2" />
+                  <p className="text-base md:text-lg text-foreground/80 leading-relaxed">
+                    Бизнесу нужны новые управленцы — гибкие, стратегичные, технологичные.
+                  </p>
+                </div>
+              </Card>
+
+              <Card className="bg-card/50 backdrop-blur-sm border-gold/20 p-6">
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-2 h-2 rounded-full bg-gold mt-2" />
+                  <p className="text-base md:text-lg text-foreground/80 leading-relaxed">
+                    Yassa привозит международный стандарт бизнес-образования и адаптирует его под локальный контекст.
+                  </p>
+                </div>
+              </Card>
+            </div>
+
+            <p className="text-xl md:text-2xl text-gold-light text-center font-light">
+              Yassa - это мост между Центральной Азией и мировым деловым сообществом.
+            </p>
+          </div>
+
+          <div className="mb-16">
+            <h3 className="text-3xl md:text-4xl font-bold text-gold mb-8 text-center">
+              Сила Yassa — в глобальных альянсах
+            </h3>
+            
+            <p className="text-lg text-foreground/70 text-center mb-12">Партнёры:</p>
+
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 mb-12 items-center justify-items-center">
+              <div className="flex flex-col items-center gap-4 p-4">
+                <img 
+                  src="https://static.tildacdn.com/tild3362-3265-4238-a563-633062663764/photo.svg" 
+                  alt="Harvard Alumni Entrepreneurs" 
+                  className="h-16 md:h-20 object-contain filter brightness-90 hover:brightness-110 transition-all"
+                />
+              </div>
+
+              <div className="flex flex-col items-center gap-4 p-4">
+                <img 
+                  src="https://static.tildacdn.com/tild6138-6566-4333-b333-323935666637/swiss-1.svg" 
+                  alt="Swiss SITE" 
+                  className="h-16 md:h-20 object-contain filter brightness-90 hover:brightness-110 transition-all"
+                />
+              </div>
+
+              <div className="flex flex-col items-center gap-4 p-4">
+                <img 
+                  src="https://static.tildacdn.com/tild3765-3639-4637-b438-346639636333/BigSky_white.svg" 
+                  alt="Big Sky Capital" 
+                  className="h-16 md:h-20 object-contain filter brightness-90 hover:brightness-110 transition-all"
+                />
+              </div>
+
+              <div className="flex flex-col items-center gap-4 p-4">
+                <img 
+                  src="https://static.tildacdn.com/tild6434-6461-4430-a339-656430343338/logoAlibaba.svg" 
+                  alt="Alibaba Group" 
+                  className="h-16 md:h-20 object-contain filter brightness-90 hover:brightness-110 transition-all"
+                />
+              </div>
+
+              <div className="flex flex-col items-center gap-4 p-4 col-span-2 md:col-span-3 lg:col-span-1">
+                <img 
+                  src="https://static.tildacdn.com/tild6338-6163-4661-b966-346262393366/Logo_TechnoWomen_po.svg" 
+                  alt="TechnoWomen Association" 
+                  className="h-16 md:h-20 object-contain filter brightness-90 hover:brightness-110 transition-all"
+                />
+              </div>
+            </div>
+
+            <div className="max-w-3xl mx-auto space-y-6">
+              <Card className="bg-card/50 backdrop-blur-sm border-gold/20 p-6">
+                <div className="flex items-start gap-4">
+                  <Icon name="GraduationCap" size={24} className="text-gold flex-shrink-0 mt-1" />
+                  <div>
+                    <p className="text-foreground/80 leading-relaxed">
+                      <span className="font-semibold text-gold-light">Harvard Alumni Entrepreneurs (США)</span> — сертификационные программы
+                    </p>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="bg-card/50 backdrop-blur-sm border-gold/20 p-6">
+                <div className="flex items-start gap-4">
+                  <Icon name="Award" size={24} className="text-gold flex-shrink-0 mt-1" />
+                  <div>
+                    <p className="text-foreground/80 leading-relaxed">
+                      <span className="font-semibold text-gold-light">Swiss SITE (Швейцария)</span> — диплом Executive MBA
+                    </p>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="bg-card/50 backdrop-blur-sm border-gold/20 p-6">
+                <div className="flex items-start gap-4">
+                  <Icon name="TrendingUp" size={24} className="text-gold flex-shrink-0 mt-1" />
+                  <div>
+                    <p className="text-foreground/80 leading-relaxed">
+                      <span className="font-semibold text-gold-light">Big Sky Capital (США / ЦА)</span> — инвестиции, венчурные инициативы
+                    </p>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="bg-card/50 backdrop-blur-sm border-gold/20 p-6">
+                <div className="flex items-start gap-4">
+                  <Icon name="Rocket" size={24} className="text-gold flex-shrink-0 mt-1" />
+                  <div>
+                    <p className="text-foreground/80 leading-relaxed">
+                      <span className="font-semibold text-gold-light">Alibaba Group (Азия)</span> — акселерационные программы и AI-практики
+                    </p>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="bg-card/50 backdrop-blur-sm border-gold/20 p-6">
+                <div className="flex items-start gap-4">
+                  <Icon name="Users" size={24} className="text-gold flex-shrink-0 mt-1" />
+                  <div>
+                    <p className="text-foreground/80 leading-relaxed">
+                      <span className="font-semibold text-gold-light">TechnoWomen Association</span> — развитие женского лидерства
+                    </p>
+                  </div>
+                </div>
+              </Card>
+            </div>
+
+            <p className="text-xl md:text-2xl text-gold-light text-center font-light mt-12">
+              Мы интегрируем лучшие практики Гарварда, Швейцарии и Силиконовой долины.
+            </p>
+          </div>
+
+          <div className="text-center">
+            <Button 
+              size="lg" 
+              className="bg-gold hover:bg-gold/90 text-background font-semibold text-lg px-12 py-6 rounded-full transition-all duration-300 hover:scale-105 shadow-lg shadow-gold/20"
+              onClick={() => document.getElementById('registration')?.scrollIntoView({ behavior: 'smooth' })}
+            >
+              Регистрация на вечер
+              <Icon name="ArrowRight" size={20} className="ml-2" />
+            </Button>
+          </div>
+        </div>
+      </section>
+
       <section id="registration" className="relative py-20 px-4">
         <div className="absolute inset-0 bg-gradient-to-t from-secondary/30 to-transparent" />
         
