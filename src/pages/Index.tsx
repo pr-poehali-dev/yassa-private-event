@@ -41,54 +41,51 @@ const Index = () => {
         <div className="absolute bottom-0 left-1/4 w-32 h-px bg-gradient-to-r from-transparent via-gold to-transparent opacity-40" />
         
         <div className="relative max-w-5xl mx-auto text-center animate-fade-in">
-          <div className="inline-flex items-center gap-2 px-4 py-2 mb-8 border border-gold/30 rounded-full bg-gold/5 backdrop-blur-sm">
-            <Icon name="Lock" size={16} className="text-gold" />
-            <span className="text-sm font-medium tracking-wider text-gold-light">INVITE ONLY • 50 УЧАСТНИКОВ</span>
-          </div>
-
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 tracking-tight">
-            <span className="text-gold block mb-2">YASSA</span>
-            <span className="block text-4xl md:text-5xl lg:text-6xl font-light text-foreground/90">
-              PRIVATE BUSINESS EVENING
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-8 tracking-tight">
+            <span className="block text-4xl md:text-5xl lg:text-6xl font-light text-foreground/90 mb-2">
+              YASSA PRIVATE BUSINESS EVENING
             </span>
           </h1>
 
-          <div className="max-w-3xl mx-auto mb-8 space-y-4">
+          <div className="max-w-3xl mx-auto mb-8 space-y-3">
             <p className="text-xl md:text-2xl text-gold-light font-light tracking-wide">
               Лидерство. Инвестиции. Искусственный интеллект.
             </p>
             <p className="text-lg md:text-xl text-foreground/70 font-light">
-              Неформальный нетворкинг с бизнес-элитой страны
+              Неформальный нетворкинг с бизнес-элитой страны.
             </p>
           </div>
 
           <div className="w-24 h-px bg-gradient-to-r from-transparent via-gold to-transparent mx-auto mb-8" />
 
-          <p className="text-lg md:text-xl text-foreground/80 mb-8 max-w-2xl mx-auto font-light leading-relaxed">
-            Образование мирового уровня теперь в Кыргызстане — <br className="hidden md:block" />
+          <p className="text-lg md:text-xl text-foreground/80 mb-10 max-w-2xl mx-auto font-light leading-relaxed">
+            Образование мирового уровня теперь в Кыргызстане - <br className="hidden md:block" />
             закрытая презентация <span className="text-gold font-medium">Yassa Business Institute KG</span>
           </p>
 
-          <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-12 text-foreground/70">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 mb-6 text-foreground/80">
             <div className="flex items-center gap-2">
               <Icon name="Calendar" size={20} className="text-gold" />
               <span className="font-medium">28 октября, 18:30</span>
             </div>
-            <div className="hidden md:block w-1 h-1 rounded-full bg-gold/50" />
+            <div className="hidden sm:block w-1 h-1 rounded-full bg-gold/50" />
             <div className="flex items-center gap-2">
               <Icon name="MapPin" size={20} className="text-gold" />
               <span className="font-medium">Бишкек, Technopark</span>
             </div>
           </div>
 
+          <div className="inline-flex items-center gap-2 px-4 py-2 mb-10 border border-gold/30 rounded-full bg-gold/5 backdrop-blur-sm">
+            <Icon name="Lock" size={16} className="text-gold" />
+            <span className="text-sm font-medium tracking-wider text-gold-light">INVITE ONLY, 50 УЧАСТНИКОВ</span>
+          </div>
+
           <div className="max-w-3xl mx-auto mb-12">
-            <Card className="bg-card/50 backdrop-blur-sm border-gold/20 p-6 md:p-8">
-              <p className="text-base md:text-lg text-foreground/80 leading-relaxed">
-                Интеллектуальные воркшопы от президента ассоциации предпринимателей 
-                <span className="text-gold font-medium"> Harvard University</span>, 
-                инвесторов и управленцев
-              </p>
-            </Card>
+            <p className="text-base md:text-lg text-foreground/80 leading-relaxed">
+              Интеллектуальные воркшопы от президента ассоциации предпринимателей 
+              <span className="text-gold font-medium"> Harvard University</span>, 
+              инвесторов и управленцев
+            </p>
           </div>
 
           <Button 
@@ -96,7 +93,7 @@ const Index = () => {
             className="bg-gold hover:bg-gold/90 text-background font-semibold text-lg px-12 py-6 rounded-full transition-all duration-300 hover:scale-105 shadow-lg shadow-gold/20"
             onClick={() => document.getElementById('registration')?.scrollIntoView({ behavior: 'smooth' })}
           >
-            Зарегистрироваться
+            Регистрация
             <Icon name="ArrowRight" size={20} className="ml-2" />
           </Button>
         </div>
